@@ -20,6 +20,7 @@ if __name__ == "__main__":
               "tests",
               "plots"
           ]),
+          py_modules=['dbcv'],  # This includes dbcv.py as a module
           url=URL,
           classifiers=classifiers,
           install_requires=[
